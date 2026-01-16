@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mypy / type checking
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Conda
+conda-env/
+.conda/
+envs/
+*.conda-lock
+conda-bld/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# other
+*.log
+*.pid
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+.env
+.env.*
